@@ -1,0 +1,62 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+    background-image: url("https://lifehacker.com/imagery/articles/01HF2HJSYKJ6DSCTE6H14V8M3R/hero-image.fill.size_1248x702.v1699834048.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.742);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.667);
+    max-width: 400px;
+    width: 100%;
+}
+input, select, button{
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+h1{
+    padding: 2px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+label{
+    font-size: 18px;
+}
+button {
+    background-color: #001e8b;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #001a77;
+}
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+}
